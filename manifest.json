@@ -6,6 +6,11 @@
       "src": "favicon.ico",
       "type": "image/x-icon",
       "sizes": "96x96"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "96x96"
     }
   ],
   "start_url": ".",
