@@ -1,5 +1,7 @@
 .Section {
     margin-top: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .title {
