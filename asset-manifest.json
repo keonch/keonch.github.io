@@ -1,25 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e257a66.chunk.css",
-    "main.js": "/static/js/main.be232c0a.chunk.js",
-    "main.js.map": "/static/js/main.be232c0a.chunk.js.map",
+    "main.css": "/static/css/main.619813e0.chunk.css",
+    "main.js": "/static/js/main.7bc44587.chunk.js",
+    "main.js.map": "/static/js/main.7bc44587.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c5174c48.js",
     "runtime-main.js.map": "/static/js/runtime-main.c5174c48.js.map",
     "static/js/2.0cec55b9.chunk.js": "/static/js/2.0cec55b9.chunk.js",
     "static/js/2.0cec55b9.chunk.js.map": "/static/js/2.0cec55b9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4e257a66.chunk.css.map": "/static/css/main.4e257a66.chunk.css.map",
+    "static/css/main.619813e0.chunk.css.map": "/static/css/main.619813e0.chunk.css.map",
     "static/js/2.0cec55b9.chunk.js.LICENSE.txt": "/static/js/2.0cec55b9.chunk.js.LICENSE.txt",
+    "static/media/css3.c65b6eb4.png": "/static/media/css3.c65b6eb4.png",
+    "static/media/git.140fa4d6.png": "/static/media/git.140fa4d6.png",
     "static/media/github.f1102180.png": "/static/media/github.f1102180.png",
+    "static/media/js.6b108058.png": "/static/media/js.6b108058.png",
     "static/media/location.642f054d.svg": "/static/media/location.642f054d.svg",
     "static/media/mail.2c9fdd96.svg": "/static/media/mail.2c9fdd96.svg",
     "static/media/me.aae17878.png": "/static/media/me.aae17878.png",
-    "static/media/telephone.98d34d26.svg": "/static/media/telephone.98d34d26.svg"
+    "static/media/postgresql.e2082c17.png": "/static/media/postgresql.e2082c17.png",
+    "static/media/protobuf.e4450bfb.png": "/static/media/protobuf.e4450bfb.png",
+    "static/media/python.b6040aca.png": "/static/media/python.b6040aca.png",
+    "static/media/rails.7e9ce12c.png": "/static/media/rails.7e9ce12c.png",
+    "static/media/react.e310fdba.png": "/static/media/react.e310fdba.png",
+    "static/media/redux.296b9306.png": "/static/media/redux.296b9306.png",
+    "static/media/ruby.67bc5fac.svg": "/static/media/ruby.67bc5fac.svg",
+    "static/media/telephone.98d34d26.svg": "/static/media/telephone.98d34d26.svg",
+    "static/media/webpack.4d4ac489.png": "/static/media/webpack.4d4ac489.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c5174c48.js",
     "static/js/2.0cec55b9.chunk.js",
-    "static/css/main.4e257a66.chunk.css",
-    "static/js/main.be232c0a.chunk.js"
+    "static/css/main.619813e0.chunk.css",
+    "static/js/main.7bc44587.chunk.js"
   ]
 }
