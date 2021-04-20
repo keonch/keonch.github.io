@@ -6,11 +6,11 @@ function Footer() {
   return (
     <div className="Footer">
       <div className="links">
-        <a href="https://www.linkedin.com/in/keon-choi/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/keon-choi/">
           <img src={linkedin} alt="linkedin"></img>
           <div>LinkedIn</div>
         </a>
-        <a href="https://github.com/keonch">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/keonch">
           <img src={github} alt="github"></img>
           GitHub
         </a>
