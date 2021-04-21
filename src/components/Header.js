@@ -9,13 +9,13 @@ function Header() {
       <div className="header-wrapper">
         <div className="name">Keon Choi</div>
         <div className="info">
-          <img src={location}></img>
+          <img className="header-icon" src={location}></img>
           <div className="info-text">New York, NY</div>
 
-          <img src={mail}></img>
+          <img className="header-icon" src={mail}></img>
           <div className="info-text">keonch91@gmail.com</div>
 
-          <img src={telephone}></img>
+          <img className="header-icon" src={telephone}></img>
           <div className="info-text">646-520-7420</div>
         </div>
       </div>

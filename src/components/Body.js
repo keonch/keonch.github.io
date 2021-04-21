@@ -11,7 +11,9 @@ function Body() {
   return (
     <div className="Body">
       <Section title="About Me" content={aboutme}></Section>
+      <div className="divider"></div>
       <Section title="Projects" content={projects}></Section>
+      <div className="divider"></div>
       <Section title="Skills" content={skills}></Section>
     </div>
   );

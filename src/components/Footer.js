@@ -7,11 +7,11 @@ function Footer() {
     <div className="Footer">
       <div className="links">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/keon-choi/">
-          <img src={linkedin} alt="linkedin"></img>
+          <img className="footer-img" src={linkedin} alt="linkedin"></img>
           <div>LinkedIn</div>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/keonch">
-          <img src={github} alt="github"></img>
+          <img className="footer-img" src={github} alt="github"></img>
           GitHub
         </a>
       </div>

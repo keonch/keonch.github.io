@@ -1,6 +1,6 @@
 .Footer {
   background-color: #e9e9e9;
-  height: 10rem;
+  height: 8rem;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -10,7 +10,7 @@
 }
 
 a {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
   margin-bottom: 1rem;
   display: flex;
@@ -26,7 +26,7 @@ a:hover {
      cursor:pointer;  
 }
 
-img {
-  height: 1.5rem;
+.footer-img {
+  height: 1.25rem;
   margin-right: .5rem;
 }

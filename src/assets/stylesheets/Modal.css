@@ -1,0 +1,29 @@
+.Modal {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    inset: 45% auto auto 50%;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 1.5rem;
+    min-height: 50%;
+    min-width: 50%;
+}
+
+.Overlay {
+    z-index: 101;
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(194, 194, 194, 0.795);
+}
+
+.ProjectDetails {
+    background-color: red;
+}

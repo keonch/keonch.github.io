@@ -1,7 +1,7 @@
 .Project {
     position: relative;
-    width: 20rem;
     margin: 1rem;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
 
 :hover.Project{
@@ -10,8 +10,8 @@
 }
 
 .project-img {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     opacity: .5;
 }
 
