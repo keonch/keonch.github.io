@@ -4,9 +4,7 @@ import React from 'react';
 import Project from './Project';
 import ProjectDetails from './ProjectDetails';
 import Modal from 'react-modal';
-import wheresmytrain from '../assets/images/wheres_my_train.jpg';
-import nobasecase from '../assets/images/nobasecase.jpg';
-import calendar from '../assets/images/calendar.jpg';
+import PROJECT_DETAILS from '../assets/documents/projects.js';
 
 Modal.setAppElement('#root')
 
@@ -31,11 +29,12 @@ class Projects extends React.Component {
     }
 
     render() {
+        const projects_to_render = Object.entries(PROJECT_DETAILS).map(([key, value]) => (
+            <Project img={value.img} title={value.title} key={key} id={key} openModal={this.handleOpenModal} />
+        ));
         return (
             <div className="Projects">
-                <Project img={wheresmytrain} title="Where's My Train?" id="wheresmytrain" openModal={this.handleOpenModal} />
-                <Project img={nobasecase} title="No Basecase" id="nobasecase" openModal={this.handleOpenModal} />
-                <Project img={calendar} title="Calendar" id="calendar" openModal={this.handleOpenModal} />
+                {projects_to_render}
                 <Modal
                     className="Modal"
                     overlayClassName="Overlay"
@@ -43,7 +42,11 @@ class Projects extends React.Component {
                     shouldCloseOnOverlayClick={true}
                     onRequestClose={this.handleCloseModal}
                 >
-                    <ProjectDetails project_key={this.state.current_project} closeModal={this.handleCloseModal} />
+                    <ProjectDetails
+                        project_key={this.state.current_project}
+                        closeModal={this.handleCloseModal}
+                        project_details={PROJECT_DETAILS[this.state.current_project]}
+                    />
                 </Modal>
             </div>
         );
