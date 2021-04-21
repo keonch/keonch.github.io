@@ -2,21 +2,23 @@
     position: relative;
     margin: 1rem;
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-}
-
-:hover.Project{
-    cursor: pointer;
-    color: gray;
+    width: 15rem;
+    height: 15rem;
 }
 
 .project-img {
-    width: 15rem;
-    height: 15rem;
-    opacity: .5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all .3s;
+    color:rgb(87, 87, 87);
 }
 
-:hover.project-img {
-    opacity: 1;
+.project-img:hover {
+    cursor: pointer;
+    color:rgb(119, 119, 119);
+    transform: scale(1.05);
+    opacity: .9;
 }
 
 .project-title {
@@ -24,8 +26,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    font-size: 1.3rem;
     text-align: center;
-    font-size: 1.5rem;
     font-weight: 500;
 }

@@ -12,6 +12,7 @@ import redux from '../assets/images/redux.png';
 import ruby from '../assets/images/ruby.svg';
 import webpack from '../assets/images/webpack.png';
 import git from '../assets/images/git.png';
+import heroku from '../assets/images/heroku.png';
 
 function Skills() {
     return (
@@ -24,6 +25,7 @@ function Skills() {
             <Skill img={rails} caption="Ruby on Rails" className="Skill" />
             <Skill img={postgresql} caption="PostgreSQL" className="Skill" />
             <Skill img={webpack} caption="Webpack" className="Skill" />
+            <Skill img={heroku} caption="Heroku" className="Skill" />
             <Skill img={protobuf} caption="Protobuf.js" className="Skill" />
             <Skill img={git} caption="Git" className="Skill" />
             <Skill img={html5} caption="HTML5" className="Skill" />
