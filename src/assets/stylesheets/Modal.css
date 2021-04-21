@@ -13,7 +13,8 @@
     border-radius: 4px;
     outline: none;
     padding: 1.5rem;
-    max-width: 80%;
+    max-width: 900px;
+    width: 80%;
     max-height: 70%;
 }
 
@@ -28,7 +29,8 @@
     display: grid;
     grid-template-areas: 
         "project-detail-title project-detail-title" 
-        "project-detail-sidebar project-detail-description";
+        "project-detail-sidebar project-detail-description"
+        "project-detail-sidebar project-detail-gif";
         max-width: 100%;
 }
 
@@ -97,4 +99,9 @@
 .project-details-link:hover {
     color: black;
     background-color: #e1d84f;
+}
+
+.project-details-gif {
+    width: 70%;
+    padding: 2rem 0;
 }

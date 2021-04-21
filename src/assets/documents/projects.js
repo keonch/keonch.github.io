@@ -1,6 +1,6 @@
-// import wheresmytraingif from '../images/wheresmytrain.gif';
-// import nobasecasegif from '../images/nobasecase.gif';
-// import calendargif from '../images/calendar.gif';
+import wheresmytraingif from '../images/wheresmytrain.gif';
+import nobasecasegif from '../images/nobasecase.gif';
+import calendargif from '../images/calendar.gif';
 import wheresmytrainimg from '../images/wheresmytrain.jpg';
 import nobasecaseimg from '../images/nobasecase.jpg';
 import calendarimg from '../images/calendar.jpg';
@@ -12,7 +12,7 @@ const PROJECT_DETAILS = {
         title: "Where's My Train",
         technologies: ["JavaScript", "Google Maps", "Protobuf.js", "GTFS data", "CORS proxy"],
         img: wheresmytrainimg,
-        // gif: wheresmytraingif,
+        gif: wheresmytraingif,
         link: "https://keonch.me/wheres_my_train/"
     },
 
@@ -22,7 +22,7 @@ const PROJECT_DETAILS = {
         title: "No Basecase",
         technologies: ["React", "Redux", "Heroku", "PostgreSQL", "Ruby on Rails", "Webpack"],
         img: nobasecaseimg,
-        // gif: nobasecasegif,
+        gif: nobasecasegif,
         link: "http://nobasecase.herokuapp.com/#/"
     },
 
@@ -32,7 +32,7 @@ const PROJECT_DETAILS = {
         title: "Calendar",
         technologies: ["React", "Redux", "Heroku", "PostgreSQL", "Ruby on Rails", "Webpack"],
         img: calendarimg,
-        // gif: calendargif,
+        gif: calendargif,
         link: "https://calendar-kc.herokuapp.com/"
     }
 }

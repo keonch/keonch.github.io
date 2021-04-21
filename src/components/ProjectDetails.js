@@ -17,6 +17,7 @@ function ProjectDetails(props) {
                 <a className="project-details-link" target="_blank" rel="noopener noreferrer" href={project_details.link}>See Live</a>
             </div>
             <div className="project-details-description">{project_details.description}</div>
+            <img className="project-details-gif" src={project_details.gif} alt={project_details.id} />
         </div >
     );
 }

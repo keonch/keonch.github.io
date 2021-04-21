@@ -7,6 +7,7 @@ function AboutMe() {
         <div className="AboutMe">
             <img className="me" src={me} alt="me"></img>
             <div className="summary">{summary}</div>
+            <a className="resume-link" target="_blank" rel="noopener noreferrer" href={""}>See Resume</a>
         </div>
     );
 }
