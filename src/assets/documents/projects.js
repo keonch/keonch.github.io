@@ -23,7 +23,7 @@ const PROJECT_DETAILS = {
         technologies: ["React", "Redux", "Heroku", "PostgreSQL", "Ruby on Rails", "Webpack"],
         img: nobasecaseimg,
         gif: nobasecasegif,
-        link: "http://nobasecase.herokuapp.com/#/"
+        link: "http://nobasecase.keonch.me/#/"
     },
 
     calendar: {
@@ -33,7 +33,7 @@ const PROJECT_DETAILS = {
         technologies: ["React", "Redux", "Heroku", "PostgreSQL", "Ruby on Rails", "Webpack"],
         img: calendarimg,
         gif: calendargif,
-        link: "https://calendar-kc.herokuapp.com/"
+        link: "http://calendar.keonch.me/"
     }
 }
 
