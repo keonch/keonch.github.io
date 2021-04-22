@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.04d0b0c3.chunk.css",
-    "main.js": "/static/js/main.aa6b7210.chunk.js",
-    "main.js.map": "/static/js/main.aa6b7210.chunk.js.map",
+    "main.js": "/static/js/main.96a4a7f8.chunk.js",
+    "main.js.map": "/static/js/main.96a4a7f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c5174c48.js",
     "runtime-main.js.map": "/static/js/runtime-main.c5174c48.js.map",
     "static/js/2.646f3c5b.chunk.js": "/static/js/2.646f3c5b.chunk.js",
@@ -19,6 +19,8 @@
     "static/media/keon_choi_resume.fdec3459.pdf": "/static/media/keon_choi_resume.fdec3459.pdf",
     "static/media/location.642f054d.svg": "/static/media/location.642f054d.svg",
     "static/media/mail.2c9fdd96.svg": "/static/media/mail.2c9fdd96.svg",
+    "static/media/math.283ec908.gif": "/static/media/math.283ec908.gif",
+    "static/media/math.44da6d19.png": "/static/media/math.44da6d19.png",
     "static/media/me.aae17878.png": "/static/media/me.aae17878.png",
     "static/media/nobasecase.9f2db37f.jpg": "/static/media/nobasecase.9f2db37f.jpg",
     "static/media/nobasecase.e226c6b3.gif": "/static/media/nobasecase.e226c6b3.gif",
@@ -38,6 +40,6 @@
     "static/js/runtime-main.c5174c48.js",
     "static/js/2.646f3c5b.chunk.js",
     "static/css/main.04d0b0c3.chunk.css",
-    "static/js/main.aa6b7210.chunk.js"
+    "static/js/main.96a4a7f8.chunk.js"
   ]
 }
