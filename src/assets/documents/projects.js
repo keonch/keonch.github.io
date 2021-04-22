@@ -1,9 +1,11 @@
 import wheresmytraingif from '../images/wheresmytrain.gif';
 import nobasecasegif from '../images/nobasecase.gif';
 import calendargif from '../images/calendar.gif';
+import mathgif from '../images/math.gif';
 import wheresmytrainimg from '../images/wheresmytrain.jpg';
 import nobasecaseimg from '../images/nobasecase.jpg';
 import calendarimg from '../images/calendar.jpg';
+import mathimg from '../images/math.png';
 
 const PROJECT_DETAILS = {
     wheresmytrain: {
@@ -34,6 +36,16 @@ const PROJECT_DETAILS = {
         img: calendarimg,
         gif: calendargif,
         link: "http://calendar.keonch.me/"
+    },
+
+    math: {
+        id: "math",
+        description: "A lightweight math application built using React. Execute math operations from factoring to integration using an external API for computation",
+        title: "Math App",
+        technologies: ["React", "Heroku"],
+        img: mathimg,
+        gif: mathgif,
+        link: "http://math.keonch.me/"
     }
 }
 
