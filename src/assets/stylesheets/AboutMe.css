@@ -6,14 +6,14 @@
 
 .summary {
     grid-area: summary;
-    margin: auto 0;
+    margin: 2rem 3rem auto 0;
 }
 
 .me {
     grid-area: me;
     height: 12rem;
     width: 12rem;
-    margin: 0 1rem;
+    margin: 0 3rem 0 1rem;
 }
 
 .resume-link {

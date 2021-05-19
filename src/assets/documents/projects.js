@@ -12,10 +12,10 @@ const PROJECT_DETAILS = {
         id: "wheresmytrain",
         description: "Where's My Train is a Javascript application that utilizes Google Maps API and MTA datamine to render subway trains at realtime. It incorporates CORS proxy server to fetch serialized data from the MTA. The data is then decoded into JavaScript objects using Google's GTFS protocol buffer and centralized into a single source. That single source coordinates every aspect of the map display including stations, paths and velocities of trains, giving users a visualization of the NYC subway system.",
         title: "Where's My Train",
-        technologies: ["JavaScript", "Google Maps", "Protobuf.js", "GTFS data", "CORS proxy"],
+        technologies: ["JavaScript", "Google Maps", "Protobuf.js", "GTFS data", "Express"],
         img: wheresmytrainimg,
         gif: wheresmytraingif,
-        link: "https://keonch.me/wheres_my_train/"
+        link: "http://wheresmytrain.keonch.me/"
     },
 
     nobasecase: {

@@ -17,12 +17,12 @@ import heroku from '../assets/images/heroku.png';
 function Skills() {
     return (
         <div className="Skills">
-            <Skill img={python} caption="Python3" className="Skill" />
+            <Skill img={python} caption="Python" className="Skill" />
             <Skill img={js} caption="JavaScript" className="Skill" />
             <Skill img={react} caption="React" className="Skill" />
             <Skill img={redux} caption="Redux" className="Skill" />
             <Skill img={ruby} caption="Ruby" className="Skill" />
-            <Skill img={rails} caption="Ruby on Rails" className="Skill" />
+            <Skill img={rails} caption="Rails" className="Skill" />
             <Skill img={postgresql} caption="PostgreSQL" className="Skill" />
             <Skill img={webpack} caption="Webpack" className="Skill" />
             <Skill img={heroku} caption="Heroku" className="Skill" />
